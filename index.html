@@ -3,285 +3,648 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Metropolitian Corporation Lahore</title>
+	<title>| Pak Expo Centers</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"><!--boostrap.css-->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script><!--bootstrap.js-->
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script><!--popper.js-->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script><!--bootstrap.bundle.js (For Plugins)-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script><!--Jquery CDN-->
-	<link rel="stylesheet" type="text/css" href="MCL.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script><!--bootstrap.js-->
+   	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script><!--bootstrap.bundle.js (For Plugins)-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script><!--Jquery.js-->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/><!--Slick.css-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script><!--Slick.js-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"><!--Slick.thme.css-->
+	<link rel="stylesheet" type="text/css" href="Pak-expo.css"><!--Pak_Expo.css-->
 </head>
 <body>
-	<div class="web-wrapper container-fluid px-0">
-		<section id="banner" class="container-fluid">
-			<header class="row nav_row px-4 py-3">
-				<nav class="navbar navbar-expand-lg d-flex">
-					<a class="navbar-brand mcl_logo col-lg-2 col-md-4 col-sm-7 col-9 py-0 pb-4" href=""><img class="img-fluid" src="assets/images/mcl_logo.png"></a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-    					<img class="img-fluid pb-2 pt-1" src="assets/images/list.svg">
+	<div class="web-wrap container-fluid px-0">
+		<div class="container-fluid banner_sec">
+			<div class="row logo_row px-4">
+				<nav class="navbar navbar-expand-lg px-0">
+					<div class="logo col-md-2 col-6 d-flex justify-content-start">
+					    <a class="navbar-brand" href="#" style="padding-left: 1em;"><img src="images/logo.png" class="img-fluid"></a>
+					</div>
+					<button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					  	<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse col-lg-10 col-0 py-2" id="navbarSupportedContent">
-						<ul class="navbar-nav mcl-nav ms-lg-auto">
-							<li class="nav-item ms-3 me-2 px-0">
-								<a class="nav-link" href="#">About Lahore</a>
-							</li>
-							<li class="nav-item ms-3 me-2 px-0">
-								<a class="nav-link w-auto " href="#">Services</a>
-							</li>
-							<li class="nav-item ms-3 me-2 px-0">
-								<a class="nav-link" href="#">Initiatives</a>
-							</li>
-							<li class="nav-item ms-3 me-2 px-0">
-								<a class="nav-link" href="#">COVID</a>
-							</li>
-							<li class="nav-item ms-3 me-2 px-0">
-								<a class="nav-link" href="#">Info Desk</a>
-							</li>
-							<li class="nav-item ms-3 me-2 px-0">
-								<a class="nav-link" href="#">News & Events</a>
-							</li>
-						</ul>
-						<form class="form-inline me-2">
-							<input class="form-control mr-sm-2 searchbar p-2" type="search" placeholder="Search" aria-label="Search">
-							<img class="search-btn px-0 pb-4 img-fluid" src="assets/images/search_icon.png">
-						</form>
-					</div>
+				    <div class="collapse navbar-collapse mx-2" id="navbarSupportedContent">
+				      <ul class="navbar-nav row ms-auto">
+				        <li class="nav-item col px-0 mx-0">
+				          <a class="nav-link active" href="#">About Us</a>
+				        </li>
+				        <li class="nav-item col px-0 mx-0">
+				          <a class="nav-link" href="#">Venue Info</a>
+				        </li>
+				        <li class="nav-item col px-0 mx-0">
+				          <a class="nav-link" href="#" >Event Info</a>
+				        </li>
+				        <li class="nav-item col px-0 mx-0">
+				          <a class="nav-link" href="#" >Corporate Info</a>
+				        </li>
+				        <li class="nav-item nav-item col-2 px-0 ps-md-4 mx-0">
+				          <a class="nav-link" href="#" >Projects</a>
+				        </li>
+				        <li class="nav-item col px-0 mx-0">
+				          <a class="nav-link" href="#" >Contact Us</a>
+				        </li>
+				      </ul>
+				      <form class="d-flex justify-content-end ">
+						<div class="search_icon mx-2 p-0 rounded-circle d-flex justify-content-center align-items-center">
+							<img src="images/search_icon.png" class="img-fluid">						
+						</div>
+						<input class="search_bar" type="search" placeholder="Search" aria-label="Search">
+					  </form>
+				    </div>
+					
 				</nav>
-			</header>
-			<div class="row text_row mx-lg-5 mx-md-4 mx-sm-3 mx-1 py-lg-5 py-md-4 py-sm-3 py-2 my-lg-5 my-md-4 my-sm-3 my-2">
-				<div class="text_box col-lg-6 col-md-8 col-sm-10 col-12 mx-auto pt-2 pb-3 text-center px-0">
-					<h2 class="banner_heading px-sm-1">Badshahi Masjid</h2>
-					<p class="banner_text">Lahore is believed to have been found about four thousand years ago by the lagendary Loh son of Hindu mythological figure Rama and subsequently ruled by several Hindu and Buddhist dunasties.</p>
-					<button class="expoure_pill rounded-pill mb-5">Explore More</button>
-				</div>
 			</div>
-		</section>
-		<section id="services" class="container-fluid px-0">
-			<div class="row title_row px-lg-5 px-md-4 px-sm-3 px-1 d-flex justify-content-between py-3">
-				<div class="section_heading col-lg-3 col-md-5 col-sm-7 col-10 d-flex flex-column align-items-sm-start align-items-center justify-content-center">
-					<img src="assets/images/heading_icon.png" class="img-fluid">
-					<h1 class="mx-sm-0 mx-auto ps-sm-0 ps-5">Serivces</h1>
-				</div>
-				<div class="pill-div col-lg-3 col-sm-4 col mx-sm-0 mx-auto d-flex align-items-end justify-content-sm-end justify-content-center">
-					<button class="expoure_pill brown-pill rounded-pill mb-2 w-auto">Explore More</button>
-				</div>
-			</div>
-			<div class="content_row row d-flex justify-content-md-between justify-content-center pb-2 px-lg-5 px-sm-3 px-1">
-				<div class="services_box col-md-4 col-sm-8 col-11 mx-md-0 mx-auto w-auto pb-3">
-					<img src="assets/images/anti_encroachment_image.png" class="img-fluid px-0">
-					<div class="services_text text-center">
-						<h4 class="h4 services_heading py-3 mb-0 mt-2">ANTI-ENCROCHMENT</h4>
-						<a href="" class="explore-anchor py-3 mb-5">Explore More</a>
+			<div class="row banner_row">
+				<div class="col-lg-6 col-md-8 col offset-lg-0 offset-md-2 offset-0 banner-content">
+					<div class="banner_title">
+						<h3 class="h3 section_heading text-white">WELCOME TO<br><span class="highlighted">PAKISTAN EXPO <br>CENTERS</h3>
 					</div>
-				</div>
-				<div class="services_box col-md-4 col-sm-8 col-11 mx-md-0 mx-auto w-auto pb-3">
-					<img src="assets/images/infrastructural_image.png" class="img-fluid px-0">
-					<div class="services_text text-center">
-						<h4 class="h4 services_heading py-3 mb-0 mt-2">Infrastrustural</h4>
-						<a href="" class="explore-anchor py-3 mb-5">Explore More</a>
-					</div>
-				</div>
-				<div class="services_box col-md-4 col-sm-8 col-11 mx-md-0 mx-auto w-auto pb-3">
-					<img src="assets/images/map_approval_image.png" class="img-fluid px-0">
-					<div class="services_text text-center">
-						<h4 class="h4 services_heading py-3 mb-0 mt-2">ANTI-ENCROCHMENT</h4>
-						<a href="" class="explore-anchor py-3 mb-5">Explore More</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<div id="mega-sec">
-			<section id="initiatives" class="container-fluid px-0 py-lg-5 py-md-4 py-sm-3 py-2">
-				<div class="row title_row px-lg-5 px-md-4 px-sm-3 px-1 py-md-3">
-					<div class="section_heading col d-flex justify-content-center align-items-center flex-column">
-						<img src="assets/images/heading_icon.png" class="img-fluid">
-						<h1 class="text-sm-left text-center">Our Initiatives</h1>
-					</div>
-				</div>
-				<div class="row content_row mx-lg-5 mx-md-4 mx-sm-3 mx-1 px-0 pt-3">
-					<div class="initiatives_box col-lg-3 col-md-6 col-sm-8 col-10 mx-md-0 mx-auto ps-0 py-1 px-sm-2">
-						<h4 class="initiatives_heading pb-2 h4">Circular Road</h4>
-						<div class="initiatives_text d-flex">
-							<span class="horizental_bar"  style="width: 50%;"></span>
-							<p class="p">Asphaltic Based Course & Wearing Course Completed form Adda Crown Roundabout to Shah Mohammad Ghouse Darbar Roundabout, Aik Moria Pull, Service Road Bhatti Chowk & Urdu Bazar</p>
-						</div>
-					</div>
-					<div class="initiatives_box col-lg-3 col-md-6 col-sm-8 col-10 mx-md-0 mx-auto ps-0 pt-md-5 py-1 mt-md-3 pb-2 px-sm-2">
-						<h4 class="initiatives_heading pb-2 h4 ps-1">Data Darbar Facelifting</h4>
-						<div class="initiatives_text d-flex pe-md-0 pe-5">
-							<span class="horizental_bar"></span>
-							<p class="p">Security Measure Plan for Ladies and Gents Entry & Exit at Shrine Hazrat Data Gunjh Bakhsh (R.A), Lahore</p>
-						</div>
-					</div>
-					<div class="initiatives_box col-lg-3 col-md-6 col-sm-8 col-10 mx-md-0 mx-auto ps-0 py-1 px-sm-2">
-						<h4 class="initiatives_heading pb-2 h4">Model Roads</h4>
-						<div class="initiatives_text d-flex">
-							<span class="horizental_bar"></span>
-							<p class="p">As notified vide No. SE/4212 dated 23/09/2020 by the Order of Commisioner Lahore Division, following road of the city will be made Model Roads</p>
-						</div>
-					</div>
-					<div class="initiatives_box col-lg-3 col-md-6 col-sm-8 col-10 mx-md-0 mx-auto ps-0 pt-md-5 mt-md-3 pb-2 px-sm-2">
-						<h4 class="initiatives_heading pb-2 h4 ps-1">Rehabilitation of Public Washrooms</h4>
-						<div class="initiatives_text d-flex pe-md-3">
-							<span class="horizental_bar"></span>
-							<p class="p">MCL has taken up four public washrooms for rehabilitation located at different areas of city. Each of these have facility of eight toilets in it.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row img_row mx-lg-5 mx-md-4 mx-sm-3 mx-1 pb-5 pt-3">
-					<div class="initiatives_img col-md-4 col-sm-8 col-10 mx-md-0 mx-auto ps-0 text-md-center my-lg-2 my-4">
-						<img src="assets/images/initiative_image_01.png" class="img-fluid">
-					</div>
-					<div class="initiatives_img col-md-4 col-sm-8 col-10 mx-md-0 mx-auto text-md-center my-lg-2 my-4 pb-1 ">
-						<img src="assets/images/initiative_image_02.png" class="img-fluid middle-img">
-					</div>
-					<div class="initiatives_img col-md-4 col-sm-8 col-10 mx-md-0 mx-auto text-md-center my-lg-2 my-4">
-						<img src="assets/images/initiative_image_03.png" class="img-fluid">
-					</div>
-				</div>
-			</section>
-			<section id="covid" class="container-fluid px-0 pb-5">
-				<div class="row title_row px-lg-5 px-sm-4 px-1">
-					<div class="section_heading col d-flex justify-content-center align-items-sm-start align-items-center flex-column">
-						<img src="assets/images/heading_icon.png" class="img-fluid">
-						<h1 class="px-sm-0 px-2">Covid<span style="font-size: 30px;"> - Citywide Information</span></h1>
-					</div>
-				</div>
-				<div class="row content_row mx-lg-5 mx-sm-4 mx-1 px-0 justify-content-sm-start justify-content-center">
-					<h4 class="covid-tagline px-sm-0 mb-0 pb-2 px-2">MCL activities in wake of COVID-19</h4>
-					<ul class="covid-ul col-lg-6 col-md-8 col-sm-10 col-11 mx-2">
-						<li class="covid-list-item px-1 py-1">Revivial of Fire Brigade and its utilization as epidemic fighters</li>
-						<li class="covid-list-item px-1 py-1">Removal of carpets from all Masajid</li>
-						<li class="covid-list-item px-1 py-1">Announcement regarding epidemic at Masajid</li>
-						<li class="covid-list-item px-1 py-1">Marking and regular visit to ensure social distance at masajid and business places</li>
-						<li class="covid-list-item px-1 py-1">Establishment and facilitation at Quarantine Centers</li>
-						<li class="covid-list-item px-1 py-1">Ensure burial of dead bodies with SOPs</li>
-						<li class="covid-list-item px-1 py-1">Public awarness through banners, streamers and pamphlets</li>
-						<li class="covid-list-item px-1 py-1">Establishment of Ehsaas Kafalat Centers for ease of public</li>
-					</ul>
-				<div class="pill-div row align-items-start justify-content-sm-start justify-content-center my-2">
-					<button class="expoure_pill brown-pill rounded-pill mb-2 w-auto">Explore More</button>
-				</div>
-				</div>
-			</section>
-		</div>
-		<div id="footer_news-mega">
-			<section id="news" class="container-fluid px-0">
-				<div class="section_heading col d-flex flex-column align-items-center justify-content-center pt-2">
-					<img src="assets/images/heading_icon.png" class="img-fluid">
-					<h1 class="mx-sm-0 mx-auto ps-sm-0 ps-2">News & Events</h1>
-				</div>
-				<div class="row content_row mx-lg-5 mx-md-4 mx-sm-3 mx-1 px-0">
-					<div class="news_box col-md-4 col-sm-8 col-11 mx-md-0 mx-auto px-2 py-2">
-						<div class="news-img">
-							<img src="assets/images/highlights_image.png" class="img-fluid">
-						</div>
-						<div class="news_text text-center px-md-3 px-sm-4 px-2">
-							<h4 class="h4 news-heading py-3 mb-0 pt-4">highlights</h4>
-							<p class="p news-para pb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						</div>
-						<div class="pill-div row align-items-center justify-content-center my-2">
-							<button class="expoure_pill brown-pill rounded-pill mb-2 w-auto">Explore More</button>
-						</div>
-					</div>
-					<div class="news_box col-md-4 col-sm-8 col-11 mx-md-0 mx-auto px-2 py-2">
-						<div class="news-img">
-							<img src="assets/images/media_clippings_image.png" class="img-fluid">
-						</div>
-						<div class="news_text text-center px-md-3 px-sm-4 px-2">
-							<h4 class="h4 news-heading py-3 mb-0 pt-4">Media Clipping</h4>
-							<p class="p news-para pb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						</div>
-						<div class="pill-div row align-items-center justify-content-center my-2">
-							<button class="expoure_pill brown-pill rounded-pill mb-2 w-auto">Explore More</button>
-						</div>
-					</div>
-					<div class="news_box col-md-4 col-sm-8 col-11 mx-md-0 mx-auto px-2 py-2">
-						<div class="news-img">
-							<img src="assets/images/gallery_image.png" class="img-fluid">
-						</div>
-						<div class="news_text text-center px-md-3 px-sm-4 px-2">
-							<h4 class="h4 news-heading py-3 mb-0 pt-4">Gallery</h4>
-							<p class="p news-para pb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						</div>
-						<div class="pill-div row align-items-center justify-content-center my-2">
-							<button class="expoure_pill brown-pill rounded-pill mb-2 w-auto">Explore More</button>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="footer" class="container-fluid px-0 pt-2">
-				<footer class="row mx-lg-5 mx-sm-4 mx-2 px-0 py-4 mt-1">
-					<div class="footer_box address_box col-md-6 col-12 px-0">
-						<div class="footer-logo col-lg-8 col-md-10 col-8 mx-sm-0 ms-5 py-3 mb-1">
-							<img src="assets/images/footer_logo.png" class="img-fluid px-0">
-						</div>
-						<div class="row location_row">
-							<div class="location_div col-lg-6 col-md-10 col-sm-6 col-10 mx-sm-0 mx-auto me-md-2">
-								<p class="location">Located in: <a href="" class="footer_anchor">Town Hall<br> Shahrah-e-Quaid-e-Azam, Anarkali Bazar, Lahore 54000</a></p>
-							</div>
-							<div class="contact_div col-lg-6 col-md-10 col-sm-6 col-10 mx-sm-0 mx-auto">
-								<p class="location mb-0 pb-1 fw-bold">Phone: <a href="" class="footer_anchor fw-light">+92 000 000 000</a></p>
-								<p class="location mb-0 py-1 fw-bold">Email: <a href="mailto:info@mcl.gov.pk" class="footer_anchor fw-light">info@mcl.gov.pk</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="footer_box col-md-6 col-12 px-0 mt-4 pb-2 pt-2 mt-1">
-						<div class="row links_row">
-							<div class="links_box col-lg-8 col-md-6 col-sm-8 col-10 mx-sm-0 mx-auto">
-								<h2 class="h2 footer_heading">Quick links</h2>
-								<div class="row px-3">
-									<ul class="links_ul col-lg-6 col-md-10 col-6 mx-lg-0 mx-md-auto ps-lg-3 ps-md-1">
-										<li class="py-1"><a href="" class="footer_anchor mb-0">FAQs</a></li>
-										<li class="py-1"><a href="" class="footer_anchor mb-0">Downloads</a></li>
-										<li class="py-1"><a href="" class="footer_anchor mb-0">Transfer Orders</a></li>
-									</ul>
-									<ul class="links_ul col-lg-6 col-md-10 col-6 mx-lg-0 mx-md-auto ps-lg-3 ps-md-1">
-										<li class="py-1"><a href="" class="footer_anchor mb-0">Notification</a></li>
-										<li class="py-1"><a href="" class="footer_anchor mb-0">Leadership</a></li>
-										<li class="py-1"><a href="" class="footer_anchor mb-0">Contact Us</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="social_links col-lg-4 col-md-6 col-sm-4 col-10 mx-sm-0 mx-auto">
-								<h4 class="footer_heading">Follow Us</h4>
-								<div class="social_icons row d-flex flex-row py-2">
-									<a href="" class="w-auto px-0 mx-sm-2 mx-3">
-										<img src="assets/images/facebook_icon.png" class="img-fluid">
-									</a>
-									<a href="" class="w-auto px-0 mx-sm-2 mx-3">
-										<img src="assets/images/twitter_icon.png" class="img-fluid">	
-									</a>
-									<a href="" class="w-auto px-0 mx-sm-2 mx-3">
-										<img src="assets/images/linkedin_icon.png" class="img-fluid">	
-									</a>
-									<a href="" class="w-auto px-0 mx-sm-2 mx-3">
-										<img src="assets/images/instagram_icon.png" class="img-fluid">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</footer>
-				<div class="copy-right row mx-lg-5 mx-sm-4 mx-2 px-0 pt-3 pb-2">
-					<div class="col-md-6 col-12 d-flex justify-content-start px-0 py-2">
-						<a href="" class="footer_anchor px-0">&copy; Metropolitian Corporation Lahore, Govt of the Punjab</a>
-					</div>
-					<div class="col-md-6 col-12 d-flex justify-content-end px-0 py-2">
-						<p class="footer_anchor px-0">Powered by:
-							<a href="pitb.gov.pk" target="_blank" class="footer_anchor px-0"> Punajb Informatioin Technology Board</a>
+					<div class="banner_text">
+						<p class="p text-white">
+						Pakistan Expo Centres Private Limited is a corporate entity with shareholding of Federal Government and Provincial Governments of Pakistan.							
 						</p>
 					</div>
 				</div>
-			</section>
+				<div class="col-lg-6 col-md-8 col offset-lg-0 offset-md-2 offset-0 banner_slider pt-3">
+					<div class="main d-flex">
+						<div class="slider col-8 mx-2" style="">
+							<div class="inner-slider">
+								<img src="images/banner_image01.png" class="img-fluid">
+							</div>
+						</div>
+						<div class="slider col-8 mx-2" style="">
+							<div class="inner-slider">
+								<img src="images/banner_image02.png" class="img-fluid">
+							</div>
+						</div>
+						<div class="slider col-8 mx-2" style="">
+							<div class="inner-slider">
+								<img src="images/expo_center_lahore.png" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid annc_sec px-0">
+			<div class="title_row row pt-3">
+				<div class="section_title px-0 ps-1">
+					<h3 class="section_heading h3">ANNOUNCEMENTS</h3>
+				</div>
+			</div>
+			<div class="annc_row row pt-3 pb-5 px-3 mx-4 d-flex flex-wrap justify-content-between">
+				<div class="annc_box col me-lg-2 mx-lg-auto mx-sm-1 mx-auto d-flex flex-row my-2">
+					<div class="annc_date text-center mx-2">
+						<h3>MAR<br><span class="date">20</span><br>2022</h3>
+					</div>
+					<div class="annc_text">
+						<a href=""><h5 class="h5">Booking at Expo Center Lahore</h5></a>
+						<p class="p px-0">The facility of Expo Center Lahore is in the usage of Commissioner Office</p>
+					</div>
+				</div>
+				<div class="annc_box col mx-lg-2 mx-lg-auto mx-sm-1 mx-auto d-flex flex-row my-2">
+					<div class="annc_date text-center mx-2">
+						<h3>MAR<br><span class="date">20</span><br>2022</h3>
+					</div>
+					<div class="annc_text">
+						<a href=""><h5 class="h5">Booking at Expo Center Lahore</h5></a>
+						<p class="p px-0">The facility of Expo Center Lahore is in the usage of Commissioner Office</p>
+					</div>
+				</div>
+				<div class="annc_box col ms-lg-2 mx-lg-auto mx-sm-1 mx-auto d-flex flex-row my-2">
+					<div class="annc_date text-center mx-2">
+						<h3>MAR<br><span class="date">20</span><br>2022</h3>
+					</div>
+					<div class="annc_text">
+						<a href=""><h5 class="h5">Booking at Expo Center Lahore</h5></a>
+						<p class="p">The facility of Expo Center Lahore is in the usage of Commissioner Office</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid projects_sec px-0 py-2">
+			<div class="title_row row py-3">
+				<div class="section_title px-0 ps-1 text-center border-0">
+					<h3 class="section_heading h3 my-3 text-dark">OUR PROJECTS</h3>
+				</div>
+			</div>
+			<div class="projects_row row mx-5 my-2">
+				<div class="projects_box my-2 col-md-4 col-sm-8 col-10 mx-auto px-0">
+					<div class="projects_img">
+						<img src="images/expo_center_lahore.png" class="img-fluid">
+					</div>
+					<div class="projects_text text-center w-100">
+						<h5 class="h5 py-2">01</h5>
+						<h3 class="h3 project_name py-0">Expo Center Lahore</h3>
+						<div class="projects_btn text-center pb-3">
+							<p class="p project_para">All Pakistan Expo accouncements list here to update our event orgnaizers and visitors.</p>
+							<a href="" class="py-2">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="projects_box my-md-2 my-4 col-md-4 col-sm-8 col-10 mx-auto px-1">
+					<div class="projects_img">
+						<img src="images/expo_center_quetta.png" class="img-fluid">
+					</div>
+					<div class="projects_text text-center w-100">
+						<h5 class="h5 py-2">02</h5>
+						<h3 class="h3 project_name py-0">Expo Center Quetta</h3>
+						<div class="projects_btn text-center pb-3">
+							<p class="p project_para">All Pakistan Expo accouncements list here to update our event orgnaizers and visitors.</p>
+							<a href="" class="py-2">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="projects_box my-2 col-md-4 col-sm-8 col-10 mx-auto px-0">
+					<div class="projects_img">
+						<img src="images/expo_center_peshawar.png" class="img-fluid">
+					</div>
+					<div class="projects_text text-center w-100">
+						<h5 class="h5 py-2">03</h5>
+						<h3 class="h3 project_name py-0">Expo Center Peshawar</h3>
+						<div class="projects_btn text-center pb-3">
+							<p class="p project_para">All Pakistan Expo accouncements list here to update our event orgnaizers and visitors.</p>
+							<a href="" class="py-2">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid services_sec px-0">
+			<div class="title_row row py-3">
+				<div class="section_title px-0 ps-1 text-center">
+					<h3 class="section_heading h3 my-3 text-white border-0">Event Services</h3>
+				</div>
+			</div>
+			<div class="content_row row">
+				<div class="Services_slider" style="width: 95%; margin: 0 auto;">
+					<div class="services_main">
+						<div class="inner-slider services_box row d-flex">
+							<div class="services_pic electricity_box">
+								<img src="images/electricity_icon.png" class="img-fluid electricity_img">
+								<h5 class="service_name h5">Electricity</h5>
+							</div>
+						</div>
+					</div>
+					<div class="services_main mt-5">
+						<div class="inner-slider services_box row d-flex">
+							<div class="services_pic mt-5 power_box">
+								<img src="images/power_backup_icon.png" class="img-fluid img_power">
+								<h5 class="service_name h5">Power Backup</h5>
+							</div>
+						</div>
+					</div>
+					<div class="services_main">
+						<div class="inner-slider services_box row d-flex">
+							<div class="services_pic internet_box">
+								<img src="images/internet_wifi_icon.png" class="img-fluid img_internet">
+								<h5 class="service_name h5">Internet Wifi</h5>
+							</div>
+						</div>
+					</div>
+					<div class="services_main mt-5">
+						<div class="inner-slider services_box row d-flex">
+							<div class="services_pic mt-5 cafe_box">
+								<img src="images/cafeteria_icon.png" class="img-fluid img_cafe">
+								<h5 class="service_name h5">Operational Cafeteria</h5>
+							</div>
+						</div>
+					</div>
+					<div class="services_main">
+						<div class="inner-slider services_box row d-flex">
+							<div class="services_pic parking_box">
+								<img src="images/parking_icon.png" class="img-fluid img_parking">
+								<h5 class="service_name h5">Parking Management</h5>
+							</div>
+						</div>
+					</div>
+					<div class="services_main mt-5">
+						<div class="inner-slider services_box row d-flex">
+							<div class="services_pic mt-5 internet_box">
+								<img src="images/internet_wifi_icon.png" class="img-fluid img_internet">
+								<h5 class="service_name h5">Internet Wifi</h5>
+							</div>
+						</div>
+					</div>
+					<div class="services_main">
+						<div class="inner-slider services_box row d-flex">
+							<div class="services_pic cafe_box">
+								<img src="images/cafeteria_icon.png" class="img-fluid img_cafe">
+								<h5 class="service_name h5">Operational Cafeteria</h5>
+							</div>
+						</div>
+					</div>
+					<div class="services_main mt-5">
+						<div class="inner-slider services_box row d-flex">
+							<div class="services_pic mt-5 power_box">
+								<img src="images/power_backup_icon.png" class="img-fluid img_power">
+								<h5 class="service_name h5">Power Backup</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid venue_sec px-0 py-3">
+			<div class="title_row row py-3">
+				<div class="section_heading my-3">
+					<h3 class="h3">VENUE INFORMATION</h3>
+					<h5 class="h5">Expo Center Lahore</h5>
+				</div>
+			</div>
+			<div class="boxes_row row d-flex justify-content-between mx-3 px-3">
+				<div class="venue_box col-lg-3 col-md-6 col-sm-8 col-10 my-2 px-0 pe-1 mx-md-0 mx-auto">
+					<img src="images/exhibition_hall_image.png" class="img-fluid venue_img w-100">
+					<div class="venue_content px-2">
+						<h4 class="h4 px-3 pb-0">Exhibition Halls</h4>
+					</div>
+					<div class="overly_text">
+						<h4 class="h4 px-3 pb-2 text-white">Exhibition Halls</h4>
+						<div class="venue_btn">
+							<button class="btn btn-light">Learn More</button>
+						</div>
+					</div>
+				</div>
+				<div class="venue_box col-lg-3 col-md-6 col-sm-8 col-10 my-2 px-0 pe-1 mx-md-0 mx-auto">
+					<img src="images/convention_centre_image.png" class="venue_img img-fluid w-100">
+					<div class="venue_content px-2">
+						<h4 class="h4 px-3 pb-2">Convention Center</h4>
+					</div>
+					<div class="overly_text">
+						<h4 class="h4 px-3 pb-2 text-white">Convention Center</h4>
+						<div class="venue_btn">
+							<button class="btn btn-light">Learn More</button>
+						</div>
+					</div>
+				</div>
+				<div class="venue_box col-lg-3 col-md-6 col-sm-8 col-10 my-2 px-0 pe-1 mx-md-0 mx-auto">
+					<img src="images/central_halls_image.png" class="img-fluid venue_img w-100">
+					<div class="venue_content w-100 ms-2">
+						<h4 class="h4 px-3 pb-2">General Halls</h4>
+					</div>
+					<div class="overly_text">
+						<h4 class="h4 px-3 pb-2 text-white">General Halls</h4>
+						<div class="venue_btn">
+							<button class="btn btn-light">Learn More</button>
+						</div>
+					</div>
+				</div>
+				<div class="venue_box col-lg-3 col-md-6 col-sm-8 col-10 my-2 px-0 pe-1 mx-md-0 mx-auto">
+					<img src="images/open_event_area_image.png" class="img-fluid venue_img w-100">
+					<div class="venue_content w-100 mx-2">
+						<h4 class="h4 px-3 pb-2">Open Event Area</h4>
+					</div>
+					<div class="overly_text">
+						<h4 class="h4 px-3 pb-2 text-white">Open Event Area</h4>
+						<div class="venue_btn">
+							<button class="btn btn-light">Learn More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="last_bg">
+			<div class="container-fluid events_sec">
+				<div class="title_row row py-3">
+					<div class="section_title px-0 ps-1 text-center border-0">
+						<h3 class="section_heading h3 mt-3 pt-4 text-dark">ALL EVENTS</h3>
+					</div>
+				</div>
+				<div class="boxes_row row d-flex justify-content-between mx-2 px-0">
+					<div class="event_box col-lg-4 col-md-6 col-sm-8 col-10 mx-md-0 mx-auto mb-3 px-2">
+						<div class="event_img">
+							<img src="images/dairy_asia_expo_image.png" class="img-fluid w-100">
+						</div>
+						<div class="img-bar mx-auto"></div>
+						<div class="event_content text-center px-5 py-2 pt-4">
+							<h3 class="h3 project_name py-0" style="line-height: 1.5;">Dairy Aisa Expo</h3>
+							<p class="p project_para">Event start from March 20, 2022 to March 27, 2022.</p>
+							<div class="event_btn px-2">
+								<a href="" class="py-1">View Event Details</a>
+							</div>
+						</div>
+					</div>
+					<div class="event_box col-lg-4 col-md-6 col-sm-8 col-10 mx-md-0 mx-auto px-2 mb-3">
+						<div class="event_img">
+							<img src="images/intl_poultry_expo_image.png" class="img-fluid w-100">
+						</div>
+						<div class="img-bar mx-auto"></div>
+						<div class="event_content text-center px-5 py-2 pt-4">
+							<h3 class="h3 project_name py-0" style="line-height: 1.5;">Poultry Expo</h3>
+							<p class="p project_para">Event start from March 20, 2022 to March 27, 2022.</p>
+							<div class="event_btn px-2">
+								<a href="" class="py-1">View Event Details</a>
+							</div>
+						</div>
+					</div>
+					<div class="event_box col-lg-4 col-md-6 col-sm-8 col-10 mx-lg-0 mx-auto px-2 mb-3">
+						<div class="event_img">
+							<img src="images/furniture_expo_image.png" class="img-fluid w-100">
+						</div>
+						<div class="img-bar mx-auto"></div>
+						<div class="event_content text-center px-5 py-2 pt-4">
+							<h3 class="h3 project_name py-0" style="line-height: 1.5;">Furniture Expo</h3>
+							<p class="p project_para">Event start from March 20, 2022 to March 27, 2022.</p>
+							<div class="event_btn px-2">
+								<a href="" class="py-1">View Event Details</a>
+							</div>
+						</div>
+					</div>
+					<div class="exents_all text-center mt-2 mb-3">
+						<button class="btn events_all_btn text-white px-3 pt-2 mb-5 mx-auto">Learn More</button>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid tesi_sec px-0">
+				<div class="title_row row py-3">
+					<div class="section_title px-0 ps-1 text-center">
+						<h3 class="section_heading h3 mt-3 text-dark border-0">TESTIMONIALS & REVIEWS</h3>
+					</div>
+				</div>
+				<div class="row content_row w-100 pb-3">
+					<div class="quotes d-flex justify-content-between w-100 pb-5 px-0 ms-4">
+				      <div class="testi_main col-5 mx-5 py-2">
+				        <div class="inner-slider testi_box row d-flex py-3">
+				          <div class="testi_pic col-3 d-flex justify-content-center align-items-center">
+				            <h1 class="h1 text-white">AM</h1>
+				          </div>
+				          <div class=" col testi_text pe-4">
+				            <h6 class="testi_heading h6 pt-2">November 1, 2022</h6>
+				            <p class="testi_para py-2">Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+				            <h6 class="testi_heading h6 pt-2">Abdullah M.</h6>
+				            <p class="testi_para" style="font-size: 13px;">CEO of XYZ Dairy</p>
+				          </div>
+				        </div>
+				      </div>
+				      <div class="testi_main col-5 ms-5 pe-5 py-2">
+				        <div class="inner-slider testi_box row d-flex py-3">
+				          <div class="testi_pic col-3 d-flex justify-content-center align-items-center">
+				            <h1 class="h1 text-white">MK</h1>
+				          </div>
+				          <div class=" col testi_text pe-4">
+				            <h6 class="testi_heading h6 pt-2">November 6, 2022</h6>
+				            <p class="testi_para py-2">Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+				            <h6 class="testi_heading h6 pt-2">M. Kareem</h6>
+				            <p class="testi_para" style="font-size: 13px;">CEO of ABC Dairy</p>
+				          </div>
+				        </div>
+				      </div>
+				      <div class="testi_main col-5 mx-5 py-2">
+				        <div class="inner-slider testi_box row d-flex py-3">
+				          <div class="testi_pic col-3 d-flex justify-content-center align-items-center">
+				            <h1 class="h1 text-white">BA</h1>
+				          </div>
+				          <div class=" col testi_text pe-4">
+				            <h6 class="testi_heading h6 pt-2">November 11, 2022</h6>
+				            <p class="testi_para py-2">Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+				            <h6 class="testi_heading h6 pt-2">B. Azad</h6>
+				            <p class="testi_para" style="font-size: 13px;">CEO of MNA Dairy</p>
+				          </div>
+				        </div>
+				      </div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid footer_sec pt-4 pb-4">
+				<div class="footer_row row px-3 pb-3">
+					<div class="footer_box col-lg-3 col-sm-6 col-10 mx-md-0 mx-auto">
+						<div class="footer_box_heading">
+							<img src="images/logo.png" class="img-fluid">
+						</div>
+						<div class="footer_box_content">
+							<ul class="list-unstyled px-1">
+								<li class="list-item py-3"><a href="" class="address">1-A Johar Town,<br>Expo Center Lahore, Lahore, Punjab, Pakistan</a></li>
+								<li class="list-item pt-3 mt-2"><h5 class="h5">Phone: <a href="" class="footer_anchor">+92 111 092 042</a></h5></li>
+								<li class="list-item "><h5 class="h5">Email: <a href="mailto:info@pakexcel.com" class="footer_anchor">info@pakexcel.com</a></h5></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer_box col-lg-3 col-sm-6 col-10 mx-md-0 mx-auto ps-4">
+						<div class="footer_box_heading pt-4">
+							<h4 class="footer_heading">Quick Links</h4>
+						</div>
+						<div class="footer_box_content">
+							<ul class="list-unstyled px-1">
+								<li class="list-item py-2 d-flex">
+									<div class="footer_icon">
+										<img src="images/footer_chevron.png" class="img-fluid">
+									</div>
+									<div class="footer_link ms-2 px-1">
+										<a href="" class="footer_anchor address d-flex">Home</a>
+									</div>
+								</li>
+								<li class="list-item py-2 d-flex">
+									<div class="footer_icon">
+										<img src="images/footer_chevron.png" class="img-fluid">
+									</div>
+									<div class="footer_link ms-2 px-1">
+										<a href="" class="footer_anchor address d-flex">About Us</a>
+									</div>
+								</li>
+								<li class="list-item py-2 d-flex">
+									<div class="footer_icon">
+										<img src="images/footer_chevron.png" class="img-fluid">
+									</div>
+									<div class="footer_link ms-2 px-1">
+										<a href="" class="footer_anchor address d-flex">Testimonials</a>
+									</div>
+								</li>
+								<li class="list-item py-2 d-flex">
+									<div class="footer_icon">
+										<img src="images/footer_chevron.png" class="img-fluid">
+									</div>
+									<div class="footer_link ms-2 px-1">
+										<a href="" class="footer_anchor address d-flex">Terms of Services</a>
+									</div>
+								</li>
+								<li class="list-item py-2 d-flex">
+									<div class="footer_icon">
+										<img src="images/footer_chevron.png" class="img-fluid">
+									</div>
+									<div class="footer_link ms-2 px-1">
+										<a href="" class="footer_anchor address d-flex">Privacy Policy</a>
+									</div>
+								</li>
+								<li class="list-item py-2 d-flex">
+									<div class="footer_icon">
+										<img src="images/footer_chevron.png" class="img-fluid">
+									</div>
+									<div class="footer_link ms-2 px-1">
+										<a href="" class="footer_anchor address d-flex">Contact Us</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer_box col-lg-2 col-sm-5 col-10 mx-md-0 mx-auto ps-4">
+						<div class="footer_box_heading pt-4">
+							<h4 class="footer_heading">Follow Us</h4>
+						</div>
+						<div class="footer_box_content">
+							<ul class="list-unstyled px-1">
+								<li class="list-item py-2 d-flex">
+									<div class="footer_icon">
+										<img src="images/facebook_icon.png" class="img-fluid">
+									</div>
+									<div class="footer_link ms-2 px-1">
+										<a href="" class="footer_anchor address d-flex">Facebook</a>
+									</div>
+								</li>
+								<li class="list-item py-2 d-flex">
+									<div class="footer_icon">
+										<img src="images/twitter_icon.png" class="img-fluid">
+									</div>
+									<div class="footer_link ms-2 px-1">
+										<a href="" class="footer_anchor address d-flex">Twitter</a>
+									</div>
+								</li>
+								<li class="list-item py-2 d-flex">
+									<div class="footer_icon">
+										<img src="images/linkedin_icon.png" class="img-fluid">
+									</div>
+									<div class="footer_link ms-2 px-1">
+										<a href="" class="footer_anchor address d-flex">LinkedIn</a>
+									</div>
+								</li>
+								<li class="list-item py-2 d-flex">
+									<div class="footer_icon">
+										<img src="images/instagram_icon.png" class="img-fluid">
+									</div>
+									<div class="footer_link ms-2 px-1">
+										<a href="" class="footer_anchor address d-flex">Instagram</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer_box col-lg-4 col-sm-7 col-10 mx-md-0 mx-auto pe-sm-3 ps-sm-5 px-0">
+						<div class="footer_box_heading pt-4">
+							<h4 class="footer_heading">Join Our Newsletter</h4>
+						</div>
+						<div class="footer_box_content">
+							<p class="footer_anchor py-2">Get weekly updates about events<br>and news.</p>
+							<div class="input-group my-3 w-100 d-flex justify-content-end">
+								<input type="email" class="email_input col-md-9 col-sm-8 col-12 mx-0" placeholder="Enter Your Email Address" name="user_email">
+								<div class="input-group-append col-md-3 col-sm-4 col-5 mx-sm-0 mx-auto my-md-0 my-3">
+									<a href=""><button class="btn subscribe_btn w-100" type="button">Subscribe</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="name_row row mx-3 d-flex py-4 mb-2 px-3">
+					<div class="col-md-6 col-12 px-md-0 px-4 mx-auto pak_excel">
+						<h3 class="footer_anchor text-white mb-0">© Pak Excel, Government of the Punjab</h3>
+					</div>
+					<div class="col-md-6 col-12 mx-auto d-flex justify-content-end">
+						<h3 class="text-white footer_anchor mb-0">Powered by: <a href="https://pitb.gov.pk/" target="_blank" class="footer_anchor text-white">Punjab Information Technology Board</a></h3>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('.search-btn').click(function(){
-				$('.searchbar').fadeToggle(500);
+			$('.search_icon').click(function(){
+				$('.search_bar').fadeToggle(400);
+			});
+			$('.navbar-toggler').click(function(){
+				$('#navbarSupportedContent').slideToggle();
+			});
+
+			$('.quotes').slick({
+				dots: true,
+				infinite: true,
+				arrows: false,
+				autoplay: true,
+				speed: 200,
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				responsive: [
+			{
+				breakpoint: 1600,
+				settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 1024,
+				settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+				}
+			}
+
+			]
+			});
+			$('.Services_slider').slick({
+				dots: true,
+				infinite: true,
+				arrows: false,
+				autoplay: true,
+				speed: 150,
+				slidesToShow: 5,
+				slidesToScroll: 1,
+				responsive: [
+			{
+				breakpoint: 1600,
+				settings: {
+					slidesToShow: 5,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1
+					}
+				},
+			{
+				breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+				}
+				}
+			]
+		});
+			$('.main').slick({
+				arrows: true,
+				infinite: true,
+				autoplay: true,
+				speed: 200,
+				slidesToShow: 2.0,
+				slidesToScroll: 2,
 			});
 		});
 	</script>
 </body>
-</html>
+</html
